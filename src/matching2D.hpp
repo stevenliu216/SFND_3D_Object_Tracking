@@ -1,4 +1,3 @@
-
 #ifndef matching2D_hpp
 #define matching2D_hpp
 
@@ -19,6 +18,12 @@
 
 #include "dataStructures.h"
 
+// TODO: HARRIS
+// TODO: FAST
+// TODO: BRISK
+// TODO: ORB
+// TODO: AKAZE
+// TODO: SIFT
 
 void detKeypointsHarris(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis=false);
 void detKeypointsShiTomasi(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis=false);
