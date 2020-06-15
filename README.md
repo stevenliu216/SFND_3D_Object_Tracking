@@ -44,9 +44,7 @@ wget "https://pjreddie.com/media/files/yolov3.weights"
 4. Run it: `./3D_object_tracking`.
 
 ## Write up
-<center>
-![animation](images/results/result.gif)
-</center>
+![animation](./images/results/result.gif)
 
 ### FP.1 Match 3D Objects
 The matchBoundingBoxes method is implemented.
